@@ -1,0 +1,12 @@
+server:
+  port: 8086
+  netty:
+    boss: 1
+    worker: 1
+    backlog: 1024
+    port: 8088
+    length: 65536
+    url: /
+    readIdle: 180
+    writeIdle: 0
+    allIdle: 0
